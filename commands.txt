@@ -1,0 +1,7 @@
+Encoding:
+g++ encode.cpp huffman.cpp -o main
+./main inputfile.txt compressfile.huf
+
+Decoding:
+g++ decode.cpp huffman.cpp -o main
+./main  compressfile.huf output.txt
